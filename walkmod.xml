@@ -1,0 +1,24 @@
+<!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD" "http://www.walkmod.com/dtd/walkmod-1.1.dtd">
+<walkmod>
+    <transformation type="sonar:AddCurlyBrackets"/>
+    <transformation type="sonar:AddSwitchDefaultCase"/>
+    <transformation type="sonar:ArrayDesignatorOnType"/>
+    <transformation type="sonar:CollapsibleIfStatements"/>
+    <transformation type="sonar:DeclarationsShouldUseCollectionInterfaces"/>
+    <transformation type="sonar:LocalVarsShouldComplyWithNamingConvention"/>
+    <transformation type="sonar:PrimitiveInstantiationForToString"/>
+    <transformation type="sonar:RedundantCastsShouldNotBeUsed"/>
+    <transformation type="sonar:RemoveCodeComment"/>
+    <transformation type="sonar:RemoveEmptyMethod"/>
+    <transformation type="sonar:RemoveEmptyStatement"/>
+    <transformation type="sonar:RemoveLiteralBoolean"/>
+    <transformation type="sonar:RemoveUnusedMethodParameters"/>
+    <transformation type="sonar:RemoveUselessImports"/>
+    <transformation type="sonar:RemoveUselessParentheses"/>
+    <transformation type="sonar:RemoveUselessVariables"/>
+    <transformation type="sonar:StaticInitializedFieldToFinal"/>
+    <transformation type="sonar:StringCheckOnLeft"/>
+    <transformation type="sonar:UseCollectionIsEmpty"/>
+    <transformation type="sonar:UseStringEquals"/>
+    <transformation type="sonar:VariableImmediatelyReturned"/>
+</walkmod>
