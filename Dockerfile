@@ -30,5 +30,7 @@ RUN rm /c3pr/temp/pom.xml
 RUN wget -O /c3pr/agent/c3pr-agent https://github.com/c3pr/c3pr-agent/releases/download/1.0.0/c3pr-agent-alpine-1.0.0
 RUN chmod +x /c3pr/agent/c3pr-agent
 
+EXPOSE 5003
+
 ENTRYPOINT /c3pr/agent/c3pr-agent
 
