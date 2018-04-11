@@ -1,3 +1,3 @@
-FROM acdcjunior/c3pr-tool-walkmod-sonar:2.0.0
+FROM acdcjunior/c3pr-tool-walkmod-sonar:latest
 
 EXPOSE 5003
