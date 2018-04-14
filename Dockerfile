@@ -27,7 +27,7 @@ RUN rm /c3pr/temp/pom.xml
 # NOTE: At this point of development, we expect the agent to change more frequently than the tool, thus it being last in the file.
 # When the agent becomes stabler than the tools themselves, it will save time to add it as an "earlier" docker layer
 #
-RUN wget -O /c3pr/agent/c3pr-agent https://github.com/c3pr/c3pr-agent/releases/download/3.0.0/c3pr-agent-alpine-3.0.0
+RUN wget -O /c3pr/agent/c3pr-agent https://github.com/c3pr/c3pr-agent/releases/download/4.0.0/c3pr-agent-alpine-4.0.0
 RUN chmod +x /c3pr/agent/c3pr-agent
 
 EXPOSE 5003
