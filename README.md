@@ -6,6 +6,4 @@ Available at https://hub.docker.com/r/acdcjunior/c3pr-tool-walkmod-sonar/
     
 # Release
 
-Edit the tag at https://hub.docker.com/r/acdcjunior/c3pr-tool-walkmod-sonar/~/settings/automated-builds/
-
-Create and push such tag.
+Simply push a tag with the X.X.X format and it will be build on https://hub.docker.com/r/acdcjunior/c3pr-tool-walkmod-sonar/.
