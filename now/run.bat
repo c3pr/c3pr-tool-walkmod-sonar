@@ -1,0 +1,1 @@
+docker run -p 5003:5003 --name wsonar acdcjunior/c3pr-tool-walkmod-sonar:1.2.0
