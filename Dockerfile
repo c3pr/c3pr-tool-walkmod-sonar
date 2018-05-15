@@ -21,6 +21,10 @@ ADD pom.xml /c3pr/temp/pom.xml
 RUN walkmod apply
 RUN rm /c3pr/temp/pom.xml
 
+RUN mkdir -p /c3pr/agent/tools
+ENV C3PR_AGENT_TOOLS_PATH=/c3pr/agent/tools
+COPY tools /c3pr/agent/tools
+
 #
 # DOWNLOAD c3pr AGENT
 #
