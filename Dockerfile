@@ -1,8 +1,11 @@
+#
+# RUNTIME FOR THE TOOL
+# Sets the basic environment where the tool (and the projects it supports) will run.
+#
 FROM maven:3-jdk-8-alpine
 
+# NOTE: While we are under development, one RUN per line is better. When done, using "&& \" to group related lines is a better practice
 RUN apk add --update wget nano unzip git
-
-# NOTE: While we are developing, one RUN per line is better. When done, using "&& \" to merge them all is a better practice
 
 RUN mkdir -p /c3pr/project /c3pr/temp /c3pr/agent
 
