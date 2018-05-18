@@ -32,7 +32,7 @@ RUN rm /c3pr/temp/pom.xml
 #
 #
 # TOOL METADATA FOR C-3PR AGENT
-# This a file that contains the arguments for the tools this dockerfile provides.
+# This one file (or many files) that contains the arguments for the tools this dockerfile provides.
 # Basically this files tells what extensions (e.g. "java", "js") this tool can be executed on,
 # what is the actual command the agent should execute to invoke the tool (e.g. "prettify --file #{filename}")
 # and what should be the text of the PRs created as result of this tool.
