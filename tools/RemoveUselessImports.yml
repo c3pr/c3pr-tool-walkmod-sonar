@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveUselessImports"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveUselessImports -i #{filename}"
+
+pr_title: "RemoveUselessImports"
+pr_body: |
+  RemoveUselessImports

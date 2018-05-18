@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveCodeComment"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveCodeComment -i #{filename}"
+
+pr_title: "RemoveCodeComment"
+pr_body: |
+  RemoveCodeComment

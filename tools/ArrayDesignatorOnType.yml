@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:ArrayDesignatorOnType"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:ArrayDesignatorOnType -i #{filename}"
+
+pr_title: "ArrayDesignatorOnType"
+pr_body: |
+  ArrayDesignatorOnType

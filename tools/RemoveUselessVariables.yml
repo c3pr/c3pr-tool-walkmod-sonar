@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveUselessVariables"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveUselessVariables -i #{filename}"
+
+pr_title: "RemoveUselessVariables"
+pr_body: |
+  RemoveUselessVariables

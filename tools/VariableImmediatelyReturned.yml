@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:VariableImmediatelyReturned"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:VariableImmediatelyReturned -i #{filename}"
+
+pr_title: "VariableImmediatelyReturned"
+pr_body: |
+  VariableImmediatelyReturned

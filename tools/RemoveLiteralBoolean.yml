@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveLiteralBoolean"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveLiteralBoolean -i #{filename}"
+
+pr_title: "RemoveLiteralBoolean"
+pr_body: |
+  RemoveLiteralBoolean
