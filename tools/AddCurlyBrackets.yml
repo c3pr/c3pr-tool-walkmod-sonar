@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:AddCurlyBrackets"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:AddCurlyBrackets -i #{filename}"
+
+pr_title: "AddCurlyBrackets"
+pr_body: |
+  AddCurlyBrackets

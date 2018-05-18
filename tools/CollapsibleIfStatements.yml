@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:CollapsibleIfStatements"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:CollapsibleIfStatements -i #{filename}"
+
+pr_title: "CollapsibleIfStatements"
+pr_body: |
+  CollapsibleIfStatements

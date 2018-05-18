@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RedundantCastsShouldNotBeUsed"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RedundantCastsShouldNotBeUsed -i #{filename}"
+
+pr_title: "RedundantCastsShouldNotBeUsed"
+pr_body: |
+  RedundantCastsShouldNotBeUsed

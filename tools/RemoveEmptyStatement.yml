@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveEmptyStatement"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveEmptyStatement -i #{filename}"
+
+pr_title: "RemoveEmptyStatement"
+pr_body: |
+  RemoveEmptyStatement

@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:RemoveUnusedMethodParameters"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:RemoveUnusedMethodParameters -i #{filename}"
+
+pr_title: "RemoveUnusedMethodParameters"
+pr_body: |
+  RemoveUnusedMethodParameters

@@ -1,0 +1,9 @@
+tool_id: "walkmod-sonar:UseCollectionIsEmpty"
+extensions: ["java"]
+tags: ["java"]
+
+command: "walkmod apply sonar:UseCollectionIsEmpty -i #{filename}"
+
+pr_title: "UseCollectionIsEmpty"
+pr_body: |
+  UseCollectionIsEmpty
