@@ -15,39 +15,39 @@ pr_body: |
   ### Noncompliant Code Sample
 
   ```java
-  String strOne = "blue";
-  String strTwo = new String("blue"); // this is the same as if strTwo was read from a file, an HTTP request, console input, etc.
+  String blueHardcoded = "blue";
+  String blueViaConstructor = new String("blue"); // this is the same as if blueViaConstructor was read from a file, an HTTP request, console input, etc.
 
-  if (strOne == "blue") {
-      System.out.println("strOne is \\"blue\\""); // prints
+  if (blueHardcoded == "blue") {
+      System.out.println("blueHardcoded is \"blue\""); // prints
   }
-  if (strTwo == "blue") {
-      System.out.println("strTwo is \\"blue\\""); // DOESN'T print
+  if (blueViaConstructor == "blue") {
+      System.out.println("blueViaConstructor is \"blue\""); // DOESN'T print
   }
-  if (strOne != "blue") {
-      System.out.println("strOne is not \\"blue\\""); // prints
+  if (blueHardcoded != "blue") {
+      System.out.println("blueHardcoded is not \"blue\""); // DOESN'T print
   }
-  if (strTwo != "blue") {
-      System.out.println("strTwo is not \\"blue\\""); // DOESN'T print
+  if (blueViaConstructor != "blue") {
+      System.out.println("blueViaConstructor is not \"blue\""); // prints
   }
   ```
 
   ### Compliant Solution
 
   ```java
-  String strOne = "blue";
-  String strTwo = new String("blue"); // this is the same as if strTwo was read from a file, an HTTP request, console input, etc.
+  String blueHardcoded = "blue";
+  String blueViaConstructor = new String("blue"); // this is the same as if blueViaConstructor was read from a file, an HTTP request, console input, etc.
 
-  if (strOne.equals("blue")) {
-      System.out.println("strOne is \\"blue\\""); // prints
+  if (blueHardcoded.equals("blue")) {
+      System.out.println("blueHardcoded is \"blue\""); // prints
   }
-  if (strTwo.equals("blue")) {
-      System.out.println("strTwo is \\"blue\\""); // prints
+  if (blueViaConstructor.equals("blue")) {
+      System.out.println("blueViaConstructor is \"blue\""); // prints
   }
-  if (!strOne.equals("blue")) {
-      System.out.println("strOne is not \\"blue\\""); // DOESN'T print
+  if (!blueHardcoded.equals("blue")) {
+      System.out.println("blueHardcoded is not \"blue\""); // DOESN'T print
   }
-  if (!strTwo.equals("blue")) {
-      System.out.println("strTwo is not \\"blue\\""); // DOESN'T print
+  if (!blueViaConstructor.equals("blue")) {
+      System.out.println("blueViaConstructor is not \"blue\""); // DOESN'T print
   }
   ```
