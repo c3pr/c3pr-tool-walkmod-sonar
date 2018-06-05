@@ -4,6 +4,20 @@ tags: ["java"]
 
 command: "walkmod apply sonar:UseCollectionIsEmpty -i #{filename}"
 
-pr_title: "UseCollectionIsEmpty"
+pr_title: "Use `.isEmpty()` instead of comparing `.size()` to zero."
 pr_body: |
-  UseCollectionIsEmpty
+  Use `.isEmpty()` instead of comparing `.size()` to zero.
+
+  Non-compliant code:
+
+  ```java
+  public boolean hasErrors() {
+      return this.errorMessages.size() > 0;
+  }
+  ```
+
+  Compliant code:
+  ```java
+  public boolean hasErrors() {
+      return !this.errorMessages.isEmpty();
+  }
