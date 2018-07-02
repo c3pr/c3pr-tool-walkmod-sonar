@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveEmptyStatement -i #{filename}"
 
-pr_title: "RemoveEmptyStatement"
+pr_title: "Empty statements should be removed"
 pr_body: |
-  RemoveEmptyStatement
+  See: https://rules.sonarsource.com/java/RSPEC-1116
