@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:LocalVarsShouldComplyWithNamingConvention -i #{filename}"
 
-pr_title: "LocalVarsShouldComplyWithNamingConvention"
+pr_title: "Local variable names should comply with a naming convention"
 pr_body: |
-  LocalVarsShouldComplyWithNamingConvention
+  See: https://rules.sonarsource.com/java/RSPEC-117

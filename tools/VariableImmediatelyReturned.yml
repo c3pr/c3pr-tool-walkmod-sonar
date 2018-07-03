@@ -12,3 +12,6 @@ pr_body: |
   The **method name should be sufficient** for callers to know exactly what will be returned.
 
   The reason is not performance, but readability. [More details here.](https://stackoverflow.com/a/31734226)
+
+  <br>
+  See also: https://rules.sonarsource.com/java/RSPEC-1488

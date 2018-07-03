@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveUselessImports -i #{filename}"
 
-pr_title: "RemoveUselessImports"
+pr_title: "Useless imports should be removed"
 pr_body: |
-  RemoveUselessImports
+  See: https://rules.sonarsource.com/java/RSPEC-1128

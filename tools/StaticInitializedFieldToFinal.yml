@@ -28,4 +28,5 @@ pr_body: |
   }
   ```
 
+  <br>
   See also: [SonarQube S1444](https://rules.sonarsource.com/java/RSPEC-1444).

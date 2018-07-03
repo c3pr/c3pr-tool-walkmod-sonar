@@ -21,3 +21,6 @@ pr_body: |
   public boolean hasErrors() {
       return !this.errorMessages.isEmpty();
   }
+
+  <br>
+  See: https://rules.sonarsource.com/java/RSPEC-1155

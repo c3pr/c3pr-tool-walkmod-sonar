@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveUselessVariables -i #{filename}"
 
-pr_title: "RemoveUselessVariables"
+pr_title: "Unused local variables should be removed"
 pr_body: |
-  RemoveUselessVariables
+  See: https://rules.sonarsource.com/java/RSPEC-1481

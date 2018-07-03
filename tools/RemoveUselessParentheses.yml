@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveUselessParentheses -i #{filename}"
 
-pr_title: "RemoveUselessParentheses"
+pr_title: "Redundant pairs of parentheses should be removed"
 pr_body: |
-  RemoveUselessParentheses
+  See: https://rules.sonarsource.com/java/RSPEC-1110

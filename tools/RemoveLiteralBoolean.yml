@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveLiteralBoolean -i #{filename}"
 
-pr_title: "RemoveLiteralBoolean"
+pr_title: "Boolean literals should not be redundant"
 pr_body: |
-  RemoveLiteralBoolean
+  See: https://rules.sonarsource.com/java/RSPEC-1125

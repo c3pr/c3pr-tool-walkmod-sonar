@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:CollapsibleIfStatements -i #{filename}"
 
-pr_title: "CollapsibleIfStatements"
+pr_title: "Collapsible \"if\" statements should be merged"
 pr_body: |
-  CollapsibleIfStatements
+  See: https://rules.sonarsource.com/java/RSPEC-1066

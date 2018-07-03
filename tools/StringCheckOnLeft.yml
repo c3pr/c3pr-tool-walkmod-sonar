@@ -23,3 +23,6 @@ pr_body: |
   ```java
   System.out.println("Equal?" + "foo".equals(myString));                         // Compliant - properly deals with the null case
   ```
+
+  <br>
+  See: https://rules.sonarsource.com/java/RSPEC-1132

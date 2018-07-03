@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:PrimitiveInstantiationForToString -i #{filename}"
 
-pr_title: "PrimitiveInstantiationForToString"
+pr_title: "Primitive wrappers should not be instantiated only for \"toString\" or \"compareTo\" calls"
 pr_body: |
-  PrimitiveInstantiationForToString
+  See: https://rules.sonarsource.com/java/RSPEC-1158

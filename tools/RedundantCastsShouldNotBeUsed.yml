@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RedundantCastsShouldNotBeUsed -i #{filename}"
 
-pr_title: "RedundantCastsShouldNotBeUsed"
+pr_title: "Redundant casts should not be used"
 pr_body: |
-  RedundantCastsShouldNotBeUsed
+  See: https://rules.sonarsource.com/java/RSPEC-1905

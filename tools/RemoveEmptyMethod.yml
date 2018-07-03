@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveEmptyMethod -i #{filename}"
 
-pr_title: "RemoveEmptyMethod"
+pr_title: "Methods should not be empty"
 pr_body: |
-  RemoveEmptyMethod
+  See: https://rules.sonarsource.com/java/RSPEC-1186

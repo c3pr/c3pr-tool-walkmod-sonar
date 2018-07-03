@@ -4,6 +4,6 @@ tags: ["java"]
 
 command: "walkmod apply sonar:AddSwitchDefaultCase -i #{filename}"
 
-pr_title: "AddSwitchDefaultCase"
+pr_title: "\"switch\" statements should have \"default\" clauses"
 pr_body: |
-  AddSwitchDefaultCase
+  See: https://rules.sonarsource.com/java/RSPEC-131

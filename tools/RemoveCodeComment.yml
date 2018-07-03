@@ -4,6 +4,11 @@ tags: ["java"]
 
 command: "walkmod apply sonar:RemoveCodeComment -i #{filename}"
 
-pr_title: "RemoveCodeComment"
+pr_title: "Sections of code should not be commented out"
 pr_body: |
-  RemoveCodeComment
+  Programmers should not comment out code as it bloats programs and reduces readability.
+
+  Unused code should be deleted and can be retrieved from source control history if required.
+
+  <br>
+  **See:** https://rules.sonarsource.com/java/RSPEC-125
