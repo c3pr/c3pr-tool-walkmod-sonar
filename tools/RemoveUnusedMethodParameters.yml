@@ -11,17 +11,17 @@ pr_body: |
   RemoveUnusedMethodParameters
 
 
-DISABLED BECAUSE IT GENERATED ONE WRONG DIFF. IT REMOVED THE ARGS FROM A MAIN:
-
-diff --git a/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java b/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
-index 8737256..602132b 100644
---- a/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
-+++ b/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
-@@ -2,7 +2,7 @@ package io.github.c3pr.sample.javamaven.walkmod;
-
- public class IssueUseStringEquals {
-
--    public static void main(String[] args) {
-+    public static void main() {
-         String strOne = "blue";
-         String strTwo = new String("blue");
+# DISABLED BECAUSE IT GENERATED ONE WRONG DIFF. IT REMOVED THE ARGS FROM A MAIN:
+#
+# diff --git a/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java b/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
+# index 8737256..602132b 100644
+# --- a/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
+# +++ b/src/main/java/io/github/c3pr/sample/javamaven/walkmod/IssueUseStringEquals.java
+# @@ -2,7 +2,7 @@ package io.github.c3pr.sample.javamaven.walkmod;
+#
+#  public class IssueUseStringEquals {
+#
+# -    public static void main(String[] args) {
+# +    public static void main() {
+#          String strOne = "blue";
+#          String strTwo = new String("blue");
