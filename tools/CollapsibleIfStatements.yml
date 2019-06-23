@@ -1,3 +1,4 @@
+disabled: true
 tool_id: "walkmod-sonar:CollapsibleIfStatements"
 extensions: ["java"]
 tags: ["java"]

@@ -1,3 +1,4 @@
+disabled: true
 tool_id: "walkmod-sonar:RemoveUnusedMethodParameters"
 extensions: ["java"]
 tags: ["java"]
