@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:UseCollectionIsEmpty -i #{filename}"
+command: 'walkmod apply sonar:UseCollectionIsEmpty -i "#{filename}"'
 
 pr_title: "Use `.isEmpty()` instead of comparing `.size()` to zero."
 pr_body: |

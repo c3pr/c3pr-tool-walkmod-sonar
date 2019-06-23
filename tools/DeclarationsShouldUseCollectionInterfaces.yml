@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:DeclarationsShouldUseCollectionInterfaces -i #{filename}"
+command: 'walkmod apply sonar:DeclarationsShouldUseCollectionInterfaces -i "#{filename}"'
 
 pr_title: "Declarations should use Java collection interfaces such as \"List<>\" rather than specific implementation classes such as \"LinkedList<>\""
 pr_body: |

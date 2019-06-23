@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:StringCheckOnLeft -i #{filename}"
+command: 'walkmod apply sonar:StringCheckOnLeft -i "#{filename}"'
 
 pr_title: "Strings literals should be placed on the left side when checking for equality"
 pr_body: |

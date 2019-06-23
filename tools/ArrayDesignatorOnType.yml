@@ -3,8 +3,8 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:ArrayDesignatorOnType -i #{filename}"
+command: 'walkmod apply sonar:ArrayDesignatorOnType -i "#{filename}"'
 
-pr_title: "Array designators \"[]\" should be on the type, not the variable"
+pr_title: 'Array designators "[]" should be on the type, not the variable'
 pr_body: |
   See: https://rules.sonarsource.com/java/RSPEC-1197

@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:RemoveUselessVariables -i #{filename}"
+command: 'walkmod apply sonar:RemoveUselessVariables -i "#{filename}"'
 
 pr_title: "Unused local variables should be removed"
 pr_body: |

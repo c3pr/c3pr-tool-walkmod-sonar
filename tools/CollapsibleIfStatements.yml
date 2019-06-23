@@ -4,7 +4,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:CollapsibleIfStatements -i #{filename}"
+command: 'walkmod apply sonar:CollapsibleIfStatements -i "#{filename}"'
 
 pr_title: "Collapsible \"if\" statements should be merged"
 pr_body: |

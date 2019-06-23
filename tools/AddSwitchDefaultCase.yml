@@ -3,8 +3,8 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:AddSwitchDefaultCase -i #{filename}"
+command: 'walkmod apply sonar:AddSwitchDefaultCase -i "#{filename}"'
 
-pr_title: "\"switch\" statements should have \"default\" clauses"
+pr_title: '"switch" statements should have "default" clauses'
 pr_body: |
   See: https://rules.sonarsource.com/java/RSPEC-131

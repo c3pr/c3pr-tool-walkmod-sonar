@@ -3,8 +3,8 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:AddCurlyBrackets -i #{filename}"
+command: 'walkmod apply sonar:AddCurlyBrackets -i "#{filename}"'
 
-pr_title: "Control structures should use curly braces"
+pr_title: Control structures should use curly braces
 pr_body: |
   See: https://rules.sonarsource.com/java/RSPEC-121

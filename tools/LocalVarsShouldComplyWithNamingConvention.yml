@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:LocalVarsShouldComplyWithNamingConvention -i #{filename}"
+command: 'walkmod apply sonar:LocalVarsShouldComplyWithNamingConvention -i "#{filename}"'
 
 pr_title: "Local variable names should comply with a naming convention"
 pr_body: |

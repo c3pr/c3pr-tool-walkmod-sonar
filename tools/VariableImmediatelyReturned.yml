@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:VariableImmediatelyReturned -i #{filename}"
+command: 'walkmod apply sonar:VariableImmediatelyReturned -i "#{filename}"'
 
 pr_title: "Remove unecessary local variable immediately before return"
 pr_body: |

@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:RedundantCastsShouldNotBeUsed -i #{filename}"
+command: 'walkmod apply sonar:RedundantCastsShouldNotBeUsed -i "#{filename}"'
 
 pr_title: "Redundant casts should not be used"
 pr_body: |

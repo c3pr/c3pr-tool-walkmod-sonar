@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:PrimitiveInstantiationForToString -i #{filename}"
+command: 'walkmod apply sonar:PrimitiveInstantiationForToString -i "#{filename}"'
 
 pr_title: "Primitive wrappers should not be instantiated only for \"toString\" or \"compareTo\" calls"
 pr_body: |

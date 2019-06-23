@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:StaticInitializedFieldToFinal -i #{filename}"
+command: 'walkmod apply sonar:StaticInitializedFieldToFinal -i "#{filename}"'
 
 pr_title: "'public static' fields should be constant"
 pr_body: |

@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:RemoveEmptyStatement -i #{filename}"
+command: 'walkmod apply sonar:RemoveEmptyStatement -i "#{filename}"'
 
 pr_title: "Empty statements should be removed"
 pr_body: |

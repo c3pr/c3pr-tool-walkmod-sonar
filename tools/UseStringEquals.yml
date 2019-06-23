@@ -3,7 +3,7 @@ extensions: ["java"]
 tags: ["java"]
 default_weight: 100
 
-command: "walkmod apply sonar:UseStringEquals -i #{filename}"
+command: 'walkmod apply sonar:UseStringEquals -i "#{filename}"'
 
 pr_title: "Strings should be compared using equals()"
 pr_body: |
