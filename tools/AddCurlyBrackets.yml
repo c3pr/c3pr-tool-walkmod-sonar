@@ -1,6 +1,7 @@
 tool_id: "walkmod-sonar:AddCurlyBrackets"
 extensions: ["java"]
 tags: ["java"]
+default_weight: 100
 
 command: "walkmod apply sonar:AddCurlyBrackets -i #{filename}"
 

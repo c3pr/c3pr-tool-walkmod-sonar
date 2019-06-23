@@ -1,6 +1,7 @@
 tool_id: "walkmod-sonar:PrimitiveInstantiationForToString"
 extensions: ["java"]
 tags: ["java"]
+default_weight: 100
 
 command: "walkmod apply sonar:PrimitiveInstantiationForToString -i #{filename}"
 

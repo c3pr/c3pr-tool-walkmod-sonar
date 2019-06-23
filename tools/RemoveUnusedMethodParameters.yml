@@ -2,6 +2,7 @@ disabled: true
 tool_id: "walkmod-sonar:RemoveUnusedMethodParameters"
 extensions: ["java"]
 tags: ["java"]
+default_weight: 100
 
 command: "walkmod apply sonar:RemoveUnusedMethodParameters -i #{filename}"
 
