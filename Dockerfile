@@ -54,6 +54,7 @@ RUN wget -O /c3pr/agent/c3pr-agent https://github.com/c3pr/c3pr-agent/releases/d
 RUN chmod +x /c3pr/agent/c3pr-agent
 
 EXPOSE 5003
+ENV C3PR_AGENT_MAX_CONCURRENT_EXECUTIONS=2
 
 ENTRYPOINT /c3pr/agent/c3pr-agent
 
