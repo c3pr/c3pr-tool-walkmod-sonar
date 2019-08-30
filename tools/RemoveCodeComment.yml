@@ -12,4 +12,5 @@ pr_body: |
   Unused code should be deleted and can be retrieved from source control history if required.
 
   <br>
+  
   **See:** https://rules.sonarsource.com/java/RSPEC-125
