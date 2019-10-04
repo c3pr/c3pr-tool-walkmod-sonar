@@ -1,4 +1,5 @@
 tool_id: "walkmod-sonar:StaticInitializedFieldToFinal"
+transformation_type: "vulnerability"
 extensions: ["java"]
 tags: ["java"]
 default_weight: 100

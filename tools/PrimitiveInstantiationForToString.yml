@@ -1,4 +1,5 @@
 tool_id: "walkmod-sonar:PrimitiveInstantiationForToString"
+transformation_type: "code_smell"
 extensions: ["java"]
 tags: ["java"]
 default_weight: 100

@@ -1,5 +1,6 @@
 disabled: true
 tool_id: "walkmod-sonar:RemoveUnusedMethodParameters"
+transformation_type: "code_smell"
 extensions: ["java"]
 tags: ["java"]
 default_weight: 100
@@ -8,7 +9,7 @@ command: 'walkmod apply sonar:RemoveUnusedMethodParameters -i "#{filename}"'
 
 pr_title: "RemoveUnusedMethodParameters"
 pr_body: |
-  RemoveUnusedMethodParameters
+  See: https://rules.sonarsource.com/java/RSPEC-1172
 
 
 # DISABLED BECAUSE IT GENERATED ONE WRONG DIFF. IT REMOVED THE ARGS FROM A MAIN:
